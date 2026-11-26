@@ -47,7 +47,7 @@ public class Simulacao {
      * @param dt duração do passo, em segundos
      */
     public void passo(double dt) {
-        bola.acelerar(-GRAVIDADE, dt);
+        bola.acelerar(GRAVIDADE, dt);
         bola.mover(dt);
         ressaltar();
     }
